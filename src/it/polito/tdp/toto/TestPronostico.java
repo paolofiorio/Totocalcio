@@ -11,6 +11,8 @@ public class TestPronostico {
 		p.add(new Previsione(Risultato.UNO, Risultato.DUE)) ;
 		
 		System.out.println(p) ;
+		Espandi e= new Espandi();
+		e.espandiPronostico(p);
 		
 	}
 
